@@ -6,14 +6,14 @@ BibTex:
 
 ```latex
 @Inproceedings{cuttlefish2021,
-author = {Kumar, Sunil and Gupta, Akshat and Kumar, Vivek and Bhalachandra, Sridutt},
-title = {Cuttlefish: Library for Achieving Energy Efficiency in Multicore Parallel Programs},
-year = {2021},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
-location = {St. Louis, Missouri},
-series = {SC '21},
+    author = {Kumar, Sunil and Gupta, Akshat and Kumar, Vivek and Bhalachandra, Sridutt},
+    title = {Cuttlefish: Library for Achieving Energy Efficiency in Multicore Parallel Programs},
+    year = {2021},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+    location = {St. Louis, Missouri},
+    series = {SC '21},
 }
 ```
 
