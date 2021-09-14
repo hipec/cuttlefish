@@ -1,6 +1,8 @@
-This is the software implementation of Cuttlefish runtime for achieving energy efficient parallel programming over multicore Intel processors. Instructions on using this software is provided in the file ``guide.pdf''.
+This is the software implementation of Cuttlefish runtime for achieving energy efficient parallel programming over multicore Intel processors. The version used to report the results in SC '21 paper is available in the release branch that mirrors the artifact available on Zenodo: https://zenodo.org/record/5167629. 
 
-You may use this software for your research. This software is still evolving at IIIT Delhi. Whenever there is any enhancement or bug fixes, this download page will be updated. Please cite the following paper while using this software for any publications:
+Instructions on using this software are provided in the file ``AE/guide.pdf``.
+
+You may use this software for your research. This software is still evolving at IIIT Delhi. Whenever there are any enhancements or bug fixes, this download page will be updated. Please cite the following paper while using this software for any publications:
 
 BibTex:
 
