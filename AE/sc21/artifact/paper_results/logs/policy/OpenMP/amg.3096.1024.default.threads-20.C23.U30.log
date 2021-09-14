@@ -1,0 +1,730 @@
+
+-----
+mkdir timedrun fake
+
+Running with these driver parameters:
+  solver ID    = 1
+
+  Laplacian_27pt:
+    (Nx, Ny, Nz) = (256, 256, 1024)
+    (Px, Py, Pz) = (1, 1, 1)
+
+=============================================
+Generate Matrix:
+=============================================
+Spatial Operator:
+  wall clock time = 15.351363 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 218.022744 seconds
+  cpu MFLOPS      = 0.000000
+
+  RHS vector has unit components
+  Initial guess is 0
+=============================================
+IJ Vector Setup:
+=============================================
+RHS and Initial Guess:
+  wall clock time = 0.614381 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 4.726579 seconds
+  cpu MFLOPS      = 0.000000
+
+=============================================
+Problem 1: AMG Setup Time:
+=============================================
+PCG Setup:
+  wall clock time = 43.312110 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 502.502217 seconds
+  cpu MFLOPS      = 0.000000
+
+
+FOM_Setup: nnz_AP / Setup Phase Time: 4.544319e+07
+
+=============================================
+Problem 1: AMG-PCG Solve Time:
+=============================================
+PCG Solve:
+  wall clock time = 63.071315 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 1231.782289 seconds
+  cpu MFLOPS      = 0.000000
+
+
+Iterations = 22
+Final Relative Residual Norm = 9.755986e-09
+
+
+FOM_Solve: nnz_AP * Iterations / Solve Phase Time: 6.865448e+08
+
+
+
+Figure of Merit (FOM_1): 5.262694e+08
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+11410.982910	2130757460228	156588831277	156590301229	0.146980	3871393148	16350718308	63069.952180	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+Running with these driver parameters:
+  solver ID    = 1
+
+  Laplacian_27pt:
+    (Nx, Ny, Nz) = (256, 256, 1024)
+    (Px, Py, Pz) = (1, 1, 1)
+
+=============================================
+Generate Matrix:
+=============================================
+Spatial Operator:
+  wall clock time = 14.657646 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 214.111217 seconds
+  cpu MFLOPS      = 0.000000
+
+  RHS vector has unit components
+  Initial guess is 0
+=============================================
+IJ Vector Setup:
+=============================================
+RHS and Initial Guess:
+  wall clock time = 0.598596 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 4.505284 seconds
+  cpu MFLOPS      = 0.000000
+
+=============================================
+Problem 1: AMG Setup Time:
+=============================================
+PCG Setup:
+  wall clock time = 42.722100 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 489.805355 seconds
+  cpu MFLOPS      = 0.000000
+
+
+FOM_Setup: nnz_AP / Setup Phase Time: 4.607078e+07
+
+=============================================
+Problem 1: AMG-PCG Solve Time:
+=============================================
+PCG Solve:
+  wall clock time = 63.863200 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 1248.527156 seconds
+  cpu MFLOPS      = 0.000000
+
+
+Iterations = 22
+Final Relative Residual Norm = 9.755986e-09
+
+
+FOM_Solve: nnz_AP * Iterations / Solve Phase Time: 6.780319e+08
+
+
+
+Figure of Merit (FOM_1): 5.200416e+08
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+11573.902039	2129351451051	156592861944	156594254515	0.147081	3861155116	16130908238	63861.847729	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+Running with these driver parameters:
+  solver ID    = 1
+
+  Laplacian_27pt:
+    (Nx, Ny, Nz) = (256, 256, 1024)
+    (Px, Py, Pz) = (1, 1, 1)
+
+=============================================
+Generate Matrix:
+=============================================
+Spatial Operator:
+  wall clock time = 14.808156 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 215.576246 seconds
+  cpu MFLOPS      = 0.000000
+
+  RHS vector has unit components
+  Initial guess is 0
+=============================================
+IJ Vector Setup:
+=============================================
+RHS and Initial Guess:
+  wall clock time = 0.606642 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 4.603981 seconds
+  cpu MFLOPS      = 0.000000
+
+=============================================
+Problem 1: AMG Setup Time:
+=============================================
+PCG Setup:
+  wall clock time = 42.971394 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 494.329084 seconds
+  cpu MFLOPS      = 0.000000
+
+
+FOM_Setup: nnz_AP / Setup Phase Time: 4.580350e+07
+
+=============================================
+Problem 1: AMG-PCG Solve Time:
+=============================================
+PCG Solve:
+  wall clock time = 64.014408 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 1248.159819 seconds
+  cpu MFLOPS      = 0.000000
+
+
+Iterations = 22
+Final Relative Residual Norm = 9.755986e-09
+
+
+FOM_Solve: nnz_AP * Iterations / Solve Phase Time: 6.764303e+08
+
+
+
+Figure of Merit (FOM_1): 5.187736e+08
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+11639.213684	2130369643768	156592766425	156594267377	0.147011	3620266888	14741565485	64013.072403	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+Running with these driver parameters:
+  solver ID    = 1
+
+  Laplacian_27pt:
+    (Nx, Ny, Nz) = (256, 256, 1024)
+    (Px, Py, Pz) = (1, 1, 1)
+
+=============================================
+Generate Matrix:
+=============================================
+Spatial Operator:
+  wall clock time = 15.080464 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 216.888717 seconds
+  cpu MFLOPS      = 0.000000
+
+  RHS vector has unit components
+  Initial guess is 0
+=============================================
+IJ Vector Setup:
+=============================================
+RHS and Initial Guess:
+  wall clock time = 0.611437 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 4.631608 seconds
+  cpu MFLOPS      = 0.000000
+
+=============================================
+Problem 1: AMG Setup Time:
+=============================================
+PCG Setup:
+  wall clock time = 43.001742 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 499.018617 seconds
+  cpu MFLOPS      = 0.000000
+
+
+FOM_Setup: nnz_AP / Setup Phase Time: 4.577118e+07
+
+=============================================
+Problem 1: AMG-PCG Solve Time:
+=============================================
+PCG Solve:
+  wall clock time = 63.941896 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 1247.444211 seconds
+  cpu MFLOPS      = 0.000000
+
+
+Iterations = 22
+Final Relative Residual Norm = 9.755986e-09
+
+
+FOM_Solve: nnz_AP * Iterations / Solve Phase Time: 6.771974e+08
+
+
+
+Figure of Merit (FOM_1): 5.193408e+08
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+11589.105591	2134584220481	156600775882	156602237688	0.146728	3732176844	15427640097	63940.560310	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+Running with these driver parameters:
+  solver ID    = 1
+
+  Laplacian_27pt:
+    (Nx, Ny, Nz) = (256, 256, 1024)
+    (Px, Py, Pz) = (1, 1, 1)
+
+=============================================
+Generate Matrix:
+=============================================
+Spatial Operator:
+  wall clock time = 14.626154 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 211.772588 seconds
+  cpu MFLOPS      = 0.000000
+
+  RHS vector has unit components
+  Initial guess is 0
+=============================================
+IJ Vector Setup:
+=============================================
+RHS and Initial Guess:
+  wall clock time = 0.606767 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 4.511118 seconds
+  cpu MFLOPS      = 0.000000
+
+=============================================
+Problem 1: AMG Setup Time:
+=============================================
+PCG Setup:
+  wall clock time = 42.768538 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 487.101146 seconds
+  cpu MFLOPS      = 0.000000
+
+
+FOM_Setup: nnz_AP / Setup Phase Time: 4.602075e+07
+
+=============================================
+Problem 1: AMG-PCG Solve Time:
+=============================================
+PCG Solve:
+  wall clock time = 63.944307 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 1249.398950 seconds
+  cpu MFLOPS      = 0.000000
+
+
+Iterations = 22
+Final Relative Residual Norm = 9.755986e-09
+
+
+FOM_Solve: nnz_AP * Iterations / Solve Phase Time: 6.771719e+08
+
+
+
+Figure of Merit (FOM_1): 5.193841e+08
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+11591.432800	2128814416728	156594737187	156596224780	0.147120	3648396469	14942578476	63942.976150	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+Running with these driver parameters:
+  solver ID    = 1
+
+  Laplacian_27pt:
+    (Nx, Ny, Nz) = (256, 256, 1024)
+    (Px, Py, Pz) = (1, 1, 1)
+
+=============================================
+Generate Matrix:
+=============================================
+Spatial Operator:
+  wall clock time = 15.133177 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 215.851232 seconds
+  cpu MFLOPS      = 0.000000
+
+  RHS vector has unit components
+  Initial guess is 0
+=============================================
+IJ Vector Setup:
+=============================================
+RHS and Initial Guess:
+  wall clock time = 0.616735 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 4.342879 seconds
+  cpu MFLOPS      = 0.000000
+
+=============================================
+Problem 1: AMG Setup Time:
+=============================================
+PCG Setup:
+  wall clock time = 43.151970 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 490.259113 seconds
+  cpu MFLOPS      = 0.000000
+
+
+FOM_Setup: nnz_AP / Setup Phase Time: 4.561183e+07
+
+=============================================
+Problem 1: AMG-PCG Solve Time:
+=============================================
+PCG Solve:
+  wall clock time = 63.917920 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 1249.173422 seconds
+  cpu MFLOPS      = 0.000000
+
+
+Iterations = 22
+Final Relative Residual Norm = 9.755986e-09
+
+
+FOM_Solve: nnz_AP * Iterations / Solve Phase Time: 6.774514e+08
+
+
+
+Figure of Merit (FOM_1): 5.194915e+08
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+11683.454346	2128728975751	156590508921	156591952815	0.147122	3921731486	16528356301	63916.551936	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+Running with these driver parameters:
+  solver ID    = 1
+
+  Laplacian_27pt:
+    (Nx, Ny, Nz) = (256, 256, 1024)
+    (Px, Py, Pz) = (1, 1, 1)
+
+=============================================
+Generate Matrix:
+=============================================
+Spatial Operator:
+  wall clock time = 14.635476 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 210.621042 seconds
+  cpu MFLOPS      = 0.000000
+
+  RHS vector has unit components
+  Initial guess is 0
+=============================================
+IJ Vector Setup:
+=============================================
+RHS and Initial Guess:
+  wall clock time = 0.600362 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 4.507180 seconds
+  cpu MFLOPS      = 0.000000
+
+=============================================
+Problem 1: AMG Setup Time:
+=============================================
+PCG Setup:
+  wall clock time = 43.699259 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 495.750522 seconds
+  cpu MFLOPS      = 0.000000
+
+
+FOM_Setup: nnz_AP / Setup Phase Time: 4.504059e+07
+
+=============================================
+Problem 1: AMG-PCG Solve Time:
+=============================================
+PCG Solve:
+  wall clock time = 63.737219 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 1246.578862 seconds
+  cpu MFLOPS      = 0.000000
+
+
+Iterations = 22
+Final Relative Residual Norm = 9.755986e-09
+
+
+FOM_Solve: nnz_AP * Iterations / Solve Phase Time: 6.793721e+08
+
+
+
+Figure of Merit (FOM_1): 5.207892e+08
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+11622.120056	2128572340688	156593636558	156595006301	0.147136	3694579719	15223099825	63735.905122	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+Running with these driver parameters:
+  solver ID    = 1
+
+  Laplacian_27pt:
+    (Nx, Ny, Nz) = (256, 256, 1024)
+    (Px, Py, Pz) = (1, 1, 1)
+
+=============================================
+Generate Matrix:
+=============================================
+Spatial Operator:
+  wall clock time = 14.748173 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 211.812132 seconds
+  cpu MFLOPS      = 0.000000
+
+  RHS vector has unit components
+  Initial guess is 0
+=============================================
+IJ Vector Setup:
+=============================================
+RHS and Initial Guess:
+  wall clock time = 0.596499 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 4.510563 seconds
+  cpu MFLOPS      = 0.000000
+
+=============================================
+Problem 1: AMG Setup Time:
+=============================================
+PCG Setup:
+  wall clock time = 43.152861 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 489.666131 seconds
+  cpu MFLOPS      = 0.000000
+
+
+FOM_Setup: nnz_AP / Setup Phase Time: 4.561089e+07
+
+=============================================
+Problem 1: AMG-PCG Solve Time:
+=============================================
+PCG Solve:
+  wall clock time = 63.739700 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 1244.368489 seconds
+  cpu MFLOPS      = 0.000000
+
+
+Iterations = 22
+Final Relative Residual Norm = 9.755986e-09
+
+
+FOM_Solve: nnz_AP * Iterations / Solve Phase Time: 6.793456e+08
+
+
+
+Figure of Merit (FOM_1): 5.209119e+08
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+11570.255798	2129789422972	156592425937	156593858714	0.147050	3685884512	15166904978	63738.266062	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+Running with these driver parameters:
+  solver ID    = 1
+
+  Laplacian_27pt:
+    (Nx, Ny, Nz) = (256, 256, 1024)
+    (Px, Py, Pz) = (1, 1, 1)
+
+=============================================
+Generate Matrix:
+=============================================
+Spatial Operator:
+  wall clock time = 14.560781 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 212.158185 seconds
+  cpu MFLOPS      = 0.000000
+
+  RHS vector has unit components
+  Initial guess is 0
+=============================================
+IJ Vector Setup:
+=============================================
+RHS and Initial Guess:
+  wall clock time = 0.595753 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 4.486759 seconds
+  cpu MFLOPS      = 0.000000
+
+=============================================
+Problem 1: AMG Setup Time:
+=============================================
+PCG Setup:
+  wall clock time = 42.738957 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 489.009454 seconds
+  cpu MFLOPS      = 0.000000
+
+
+FOM_Setup: nnz_AP / Setup Phase Time: 4.605260e+07
+
+=============================================
+Problem 1: AMG-PCG Solve Time:
+=============================================
+PCG Solve:
+  wall clock time = 63.145832 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 1230.152578 seconds
+  cpu MFLOPS      = 0.000000
+
+
+Iterations = 22
+Final Relative Residual Norm = 9.755986e-09
+
+
+FOM_Solve: nnz_AP * Iterations / Solve Phase Time: 6.857347e+08
+
+
+
+Figure of Merit (FOM_1): 5.258141e+08
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+11511.401855	2129231083601	156596839533	156598296455	0.147093	3769852613	15848596127	63144.496165	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+Running with these driver parameters:
+  solver ID    = 1
+
+  Laplacian_27pt:
+    (Nx, Ny, Nz) = (256, 256, 1024)
+    (Px, Py, Pz) = (1, 1, 1)
+
+=============================================
+Generate Matrix:
+=============================================
+Spatial Operator:
+  wall clock time = 14.793522 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 215.518188 seconds
+  cpu MFLOPS      = 0.000000
+
+  RHS vector has unit components
+  Initial guess is 0
+=============================================
+IJ Vector Setup:
+=============================================
+RHS and Initial Guess:
+  wall clock time = 0.610237 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 4.058656 seconds
+  cpu MFLOPS      = 0.000000
+
+=============================================
+Problem 1: AMG Setup Time:
+=============================================
+PCG Setup:
+  wall clock time = 42.509951 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 486.061661 seconds
+  cpu MFLOPS      = 0.000000
+
+
+FOM_Setup: nnz_AP / Setup Phase Time: 4.630069e+07
+
+=============================================
+Problem 1: AMG-PCG Solve Time:
+=============================================
+PCG Solve:
+  wall clock time = 63.964364 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 1247.602940 seconds
+  cpu MFLOPS      = 0.000000
+
+
+Iterations = 22
+Final Relative Residual Norm = 9.755986e-09
+
+
+FOM_Solve: nnz_AP * Iterations / Solve Phase Time: 6.769595e+08
+
+
+
+Figure of Merit (FOM_1): 5.192948e+08
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+11587.169617	2130042770411	156582545691	156583940591	0.147024	3613805074	14711443461	63963.032046	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====

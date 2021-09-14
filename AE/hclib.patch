@@ -1,0 +1,18 @@
+diff --git a/src/hclib-thread-bind.c b/src/hclib-thread-bind.c
+index 860d8d3..49807a6 100644
+--- a/src/hclib-thread-bind.c
++++ b/src/hclib-thread-bind.c
+@@ -17,9 +17,9 @@
+ #include <stdio.h>
+ #define _GNU_SOURCE
+ #define __USE_GNU
+-#include <xlocale.h>
++//#include <xlocale.h>
+ #include <unistd.h>
+-#include <sched.h>
++//#include <sched.h>
+ #include <errno.h>
+ #include <stdlib.h>
+ /* Platform specific thread binding implementations -- > ONLY FOR LINUX */
+
+

@@ -1,0 +1,290 @@
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+Testing exp: 0.000000
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+13658.561951	3926300499493	112985286298	112985486394	0.057553	384532041	6039726590	70376.363422	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+Testing exp: 0.000000
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+13629.042542	3935159603732	112881850748	112882079239	0.057371	386944518	6087066188	70201.267297	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+Testing exp: 0.000000
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+13671.185486	3942183247691	112946235234	112946447786	0.057301	387389913	6056535720	70443.488907	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+Testing exp: 0.000000
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+13720.225525	3946664452795	112904864312	112905090187	0.057215	392366020	6133302630	70497.816239	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+Testing exp: 0.000000
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+13670.610046	3924519235130	112845549932	112845740045	0.057508	389496776	6162581719	70013.606815	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+Testing exp: 0.000000
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+13682.571289	3921875646238	112966389761	112966588220	0.057608	387714122	6046286287	70271.288753	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+Testing exp: 0.000000
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+13689.342773	3939894422054	112900135167	112900369029	0.057311	387877090	6084678539	70468.947215	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+Testing exp: 0.000000
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+13662.527039	3935723783205	112902432164	112902660983	0.057373	386618678	6091674002	70239.438799	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+Testing exp: 0.000000
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+13743.550781	3943625461032	112992675526	112992912725	0.057304	388043243	6038511104	70632.979280	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+Testing exp: 0.000000
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+13758.017334	3929930882067	112941024445	112941295629	0.057477	391483155	6149045271	70408.525936	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====

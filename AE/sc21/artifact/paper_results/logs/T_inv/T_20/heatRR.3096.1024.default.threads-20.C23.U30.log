@@ -1,0 +1,280 @@
+Testing exp: 0.000000
+
+-----
+mkdir timedrun fake
+
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14518.098267	3923092625096	125695901045	125694911954	0.064080	563288073	6095933913	75677.966134	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+Testing exp: 0.000000
+
+-----
+mkdir timedrun fake
+
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14583.600403	3923985003660	125651520583	125652059961	0.064043	561531492	6115281138	75506.529976	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+Testing exp: 0.000000
+
+-----
+mkdir timedrun fake
+
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14599.146790	3922317117602	125691132678	125692714229	0.064091	561464889	6095983251	75556.330683	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+Testing exp: 0.000000
+
+-----
+mkdir timedrun fake
+
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14569.139160	3920883597256	125652586391	125654427716	0.064094	566946220	6186767389	75415.168845	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+Testing exp: 0.000000
+
+-----
+mkdir timedrun fake
+
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14529.179810	3922083116029	125666707430	125666899519	0.064082	562540229	6115335686	75598.013120	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+Testing exp: 0.000000
+
+-----
+mkdir timedrun fake
+
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14526.155884	3920643132292	125614686964	125614764470	0.064079	559795724	6164228576	75244.230415	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+Testing exp: 0.000000
+
+-----
+mkdir timedrun fake
+
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14512.952698	3921074164568	125628502727	125628862290	0.064079	564345405	6191159855	75406.214574	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+Testing exp: 0.000000
+
+-----
+mkdir timedrun fake
+
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14524.146484	3921489661037	125679846273	125679615894	0.064098	557427972	6050690851	75657.633050	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+Testing exp: 0.000000
+
+-----
+mkdir timedrun fake
+
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14605.482483	3924747069152	125615361883	125614771043	0.064012	561591720	6137988973	75478.367604	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+Testing exp: 0.000000
+
+-----
+mkdir timedrun fake
+
+Input(case 0): nx=32768, ny=32768, nt=200, leafmaxcol=8
+Heat started...
+Heat ended...
+
+Heat
+ dx =  0.000048
+  dy =  0.000048
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.064855
+ Options: granularity = 8
+         nx          = 32768
+         ny          = 32768
+         nt          = 200
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14692.235779	3921261740156	125665458808	125665022198	0.064094	560247909	6095307965	75689.544227	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====

@@ -1,0 +1,180 @@
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+SOR: size=32768, num_iterations=200
+SOR started..
+SOR ended..
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+8640.062805	2261715460874	28197491959	28217930806	0.024944	137197995	372642622	68636.854852	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+SOR: size=32768, num_iterations=200
+SOR started..
+SOR ended..
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+8636.367126	2261839667157	28154233623	28174479856	0.024904	135402004	370559179	68591.951545	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+SOR: size=32768, num_iterations=200
+SOR started..
+SOR ended..
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+8630.215820	2261753180964	28168635879	28188801585	0.024918	136261024	372150755	68606.930444	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+SOR: size=32768, num_iterations=200
+SOR started..
+SOR ended..
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+8616.591736	2261798419166	28164933426	28185354626	0.024914	135560498	370404255	68567.186636	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+SOR: size=32768, num_iterations=200
+SOR started..
+SOR ended..
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+8621.729187	2261834598616	28180111489	28200723577	0.024927	136171656	372847719	68608.937933	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+SOR: size=32768, num_iterations=200
+SOR started..
+SOR ended..
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+8629.054871	2261752894644	28175152576	28195859629	0.024924	136305225	372380826	68615.067462	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+SOR: size=32768, num_iterations=200
+SOR started..
+SOR ended..
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+8640.300964	2261825622396	28180991225	28201463639	0.024928	137218424	374336269	68641.884696	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+SOR: size=32768, num_iterations=200
+SOR started..
+SOR ended..
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+8621.871948	2261711065019	28153368965	28174173063	0.024905	135447580	370425685	68567.902125	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+SOR: size=32768, num_iterations=200
+SOR started..
+SOR ended..
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+8624.303772	2261758090731	28153640937	28174258622	0.024904	135909686	371887989	68608.414856	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+HCLIB_INFO: Round Robin Thread Binding
+SOR: size=32768, num_iterations=200
+SOR started..
+SOR ended..
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+8620.004272	2261809089857	28157432094	28177796707	0.024907	136269849	372252374	68595.074981	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====

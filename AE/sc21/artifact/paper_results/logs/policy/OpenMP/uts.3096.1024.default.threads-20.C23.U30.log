@@ -1,0 +1,290 @@
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 69.823 sec, performance = 264191262004588096 nodes/sec (13209563100229404 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+9684.253296	8993595931135	81023819	82361907	0.000018	10081163	89782471	69842.072969	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 69.958 sec, performance = 263681586961168128 nodes/sec (13184079348058406 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+9638.922913	8994724552242	84516765	85880130	0.000019	10533324	94101535	70028.960694	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 69.882 sec, performance = 263970082397886016 nodes/sec (13198504119894300 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+9587.580872	8994934761065	82487936	83756067	0.000018	11067570	93134806	69945.239177	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 69.748 sec, performance = 264478773332871456 nodes/sec (13223938666643572 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+9588.004639	8994106065102	82539295	83927785	0.000019	10508662	91104082	69776.937310	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 69.885 sec, performance = 263959555756491936 nodes/sec (13197977787824596 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+9613.103149	8994022736701	81709154	83101160	0.000018	10345057	92053668	69909.357690	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 69.934 sec, performance = 263773355334522240 nodes/sec (13188667766726112 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+9562.943909	8994306807675	83964111	85376468	0.000019	11191152	95939724	69977.268326	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 69.699 sec, performance = 264663334105360416 nodes/sec (13233166705268020 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+9638.535950	8995091851505	81039329	82365102	0.000018	9932675	89243549	69765.956847	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 70.046 sec, performance = 263351036242038496 nodes/sec (13167551812101924 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+9652.368347	8995158100985	89307054	90859998	0.000020	11525755	106339994	70113.475413	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 70.017 sec, performance = 263461815790121056 nodes/sec (13173090789506052 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+9626.968140	8994464251644	82520350	83853338	0.000018	10948375	93935741	70083.657267	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 69.778 sec, performance = 264363487792230304 nodes/sec (13218174389611516 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+9585.613159	8993808227941	80765704	81986355	0.000018	9915923	87634757	69794.340819	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====

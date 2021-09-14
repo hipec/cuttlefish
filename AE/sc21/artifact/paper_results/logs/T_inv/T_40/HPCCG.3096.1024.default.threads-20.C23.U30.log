@@ -1,0 +1,520 @@
+
+-----
+mkdir timedrun fake
+
+Initial Residual = 13573.6
+Iteration = 15   Residual = 178.727
+Iteration = 30   Residual = 1.21771
+Iteration = 45   Residual = 0.00834386
+Iteration = 60   Residual = 5.70757e-05
+Iteration = 75   Residual = 3.89343e-07
+Iteration = 90   Residual = 2.6426e-09
+Iteration = 105   Residual = 1.77417e-11
+Iteration = 120   Residual = 1.15261e-13
+Iteration = 135   Residual = 6.18993e-16
+Iteration = 149   Residual = 5.09223e-18
+Mini-Application Name: hpccg
+Mini-Application Version: 1.0
+Parallelism: 
+  MPI not enabled: 
+  Number of OpenMP threads: 20
+Dimensions: 
+  nx: 256
+  ny: 256
+  nz: 1024
+Number of iterations: 149
+Final residual: 5.09223e-18
+#********** Performance Summary (times in sec) ***********: 
+Time Summary: 
+  Total   : 1207.41
+  DDOT    : 61.556
+  WAXPBY  : 188.744
+  SPARSEMV: 955.692
+FLOPS Summary: 
+  Total   : 6.3995e+11
+  DDOT    : 3.99969e+10
+  WAXPBY  : 5.99953e+10
+  SPARSEMV: 5.39958e+11
+MFLOPS Summary: 
+  Total   : 530.018
+  DDOT    : 649.764
+  WAXPBY  : 317.866
+  SPARSEMV: 564.992
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+10963.854675	2316507692367	139945854054	139946147261	0.120825	1690733250	3337510982	59956.972267	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+Initial Residual = 13573.6
+Iteration = 15   Residual = 178.727
+Iteration = 30   Residual = 1.21771
+Iteration = 45   Residual = 0.00834386
+Iteration = 60   Residual = 5.70757e-05
+Iteration = 75   Residual = 3.89343e-07
+Iteration = 90   Residual = 2.6426e-09
+Iteration = 105   Residual = 1.77417e-11
+Iteration = 120   Residual = 1.15261e-13
+Iteration = 135   Residual = 6.18993e-16
+Iteration = 149   Residual = 5.09223e-18
+Mini-Application Name: hpccg
+Mini-Application Version: 1.0
+Parallelism: 
+  MPI not enabled: 
+  Number of OpenMP threads: 20
+Dimensions: 
+  nx: 256
+  ny: 256
+  nz: 1024
+Number of iterations: 149
+Final residual: 5.09223e-18
+#********** Performance Summary (times in sec) ***********: 
+Time Summary: 
+  Total   : 1189.42
+  DDOT    : 60.416
+  WAXPBY  : 185.664
+  SPARSEMV: 941.904
+FLOPS Summary: 
+  Total   : 6.3995e+11
+  DDOT    : 3.99969e+10
+  WAXPBY  : 5.99953e+10
+  SPARSEMV: 5.39958e+11
+MFLOPS Summary: 
+  Total   : 538.037
+  DDOT    : 662.025
+  WAXPBY  : 323.139
+  SPARSEMV: 573.262
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+10924.802917	2317690478449	139936807311	139937142353	0.120756	1691533160	3380757131	59044.117329	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+Initial Residual = 13573.6
+Iteration = 15   Residual = 178.727
+Iteration = 30   Residual = 1.21771
+Iteration = 45   Residual = 0.00834386
+Iteration = 60   Residual = 5.70757e-05
+Iteration = 75   Residual = 3.89343e-07
+Iteration = 90   Residual = 2.6426e-09
+Iteration = 105   Residual = 1.77417e-11
+Iteration = 120   Residual = 1.15261e-13
+Iteration = 135   Residual = 6.18993e-16
+Iteration = 149   Residual = 5.09223e-18
+Mini-Application Name: hpccg
+Mini-Application Version: 1.0
+Parallelism: 
+  MPI not enabled: 
+  Number of OpenMP threads: 20
+Dimensions: 
+  nx: 256
+  ny: 256
+  nz: 1024
+Number of iterations: 149
+Final residual: 5.09223e-18
+#********** Performance Summary (times in sec) ***********: 
+Time Summary: 
+  Total   : 1204.16
+  DDOT    : 61.524
+  WAXPBY  : 186.356
+  SPARSEMV: 954.868
+FLOPS Summary: 
+  Total   : 6.3995e+11
+  DDOT    : 3.99969e+10
+  WAXPBY  : 5.99953e+10
+  SPARSEMV: 5.39958e+11
+MFLOPS Summary: 
+  Total   : 531.448
+  DDOT    : 650.102
+  WAXPBY  : 321.939
+  SPARSEMV: 565.479
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+11012.104980	2314949752811	139946843188	139947148460	0.120907	1707029339	3360644099	59826.629873	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+Initial Residual = 13573.6
+Iteration = 15   Residual = 178.727
+Iteration = 30   Residual = 1.21771
+Iteration = 45   Residual = 0.00834386
+Iteration = 60   Residual = 5.70757e-05
+Iteration = 75   Residual = 3.89343e-07
+Iteration = 90   Residual = 2.6426e-09
+Iteration = 105   Residual = 1.77417e-11
+Iteration = 120   Residual = 1.15261e-13
+Iteration = 135   Residual = 6.18993e-16
+Iteration = 149   Residual = 5.09223e-18
+Mini-Application Name: hpccg
+Mini-Application Version: 1.0
+Parallelism: 
+  MPI not enabled: 
+  Number of OpenMP threads: 20
+Dimensions: 
+  nx: 256
+  ny: 256
+  nz: 1024
+Number of iterations: 149
+Final residual: 5.09223e-18
+#********** Performance Summary (times in sec) ***********: 
+Time Summary: 
+  Total   : 1208.21
+  DDOT    : 62.424
+  WAXPBY  : 189.616
+  SPARSEMV: 954.752
+FLOPS Summary: 
+  Total   : 6.3995e+11
+  DDOT    : 3.99969e+10
+  WAXPBY  : 5.99953e+10
+  SPARSEMV: 5.39958e+11
+MFLOPS Summary: 
+  Total   : 529.669
+  DDOT    : 640.729
+  WAXPBY  : 316.404
+  SPARSEMV: 565.548
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+11039.333801	2313712670652	139946540605	139946823301	0.120972	1712850877	3354204244	60014.423284	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+Initial Residual = 13573.6
+Iteration = 15   Residual = 178.727
+Iteration = 30   Residual = 1.21771
+Iteration = 45   Residual = 0.00834386
+Iteration = 60   Residual = 5.70757e-05
+Iteration = 75   Residual = 3.89343e-07
+Iteration = 90   Residual = 2.6426e-09
+Iteration = 105   Residual = 1.77417e-11
+Iteration = 120   Residual = 1.15261e-13
+Iteration = 135   Residual = 6.18993e-16
+Iteration = 149   Residual = 5.09223e-18
+Mini-Application Name: hpccg
+Mini-Application Version: 1.0
+Parallelism: 
+  MPI not enabled: 
+  Number of OpenMP threads: 20
+Dimensions: 
+  nx: 256
+  ny: 256
+  nz: 1024
+Number of iterations: 149
+Final residual: 5.09223e-18
+#********** Performance Summary (times in sec) ***********: 
+Time Summary: 
+  Total   : 1202.89
+  DDOT    : 61.872
+  WAXPBY  : 187.412
+  SPARSEMV: 952.204
+FLOPS Summary: 
+  Total   : 6.3995e+11
+  DDOT    : 3.99969e+10
+  WAXPBY  : 5.99953e+10
+  SPARSEMV: 5.39958e+11
+MFLOPS Summary: 
+  Total   : 532.01
+  DDOT    : 646.446
+  WAXPBY  : 320.125
+  SPARSEMV: 567.061
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+10997.495422	2309482899667	139941542016	139941823326	0.121189	1674470445	3331230580	59734.474669	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+Initial Residual = 13573.6
+Iteration = 15   Residual = 178.727
+Iteration = 30   Residual = 1.21771
+Iteration = 45   Residual = 0.00834386
+Iteration = 60   Residual = 5.70757e-05
+Iteration = 75   Residual = 3.89343e-07
+Iteration = 90   Residual = 2.6426e-09
+Iteration = 105   Residual = 1.77417e-11
+Iteration = 120   Residual = 1.15261e-13
+Iteration = 135   Residual = 6.18993e-16
+Iteration = 149   Residual = 5.09223e-18
+Mini-Application Name: hpccg
+Mini-Application Version: 1.0
+Parallelism: 
+  MPI not enabled: 
+  Number of OpenMP threads: 20
+Dimensions: 
+  nx: 256
+  ny: 256
+  nz: 1024
+Number of iterations: 149
+Final residual: 5.09223e-18
+#********** Performance Summary (times in sec) ***********: 
+Time Summary: 
+  Total   : 1199.13
+  DDOT    : 61.46
+  WAXPBY  : 187.968
+  SPARSEMV: 948.292
+FLOPS Summary: 
+  Total   : 6.3995e+11
+  DDOT    : 3.99969e+10
+  WAXPBY  : 5.99953e+10
+  SPARSEMV: 5.39958e+11
+MFLOPS Summary: 
+  Total   : 533.68
+  DDOT    : 650.779
+  WAXPBY  : 319.178
+  SPARSEMV: 569.4
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+10967.857300	2312588902639	139937778747	139937998761	0.121023	1701975876	3416290196	59544.880870	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+Initial Residual = 13573.6
+Iteration = 15   Residual = 178.727
+Iteration = 30   Residual = 1.21771
+Iteration = 45   Residual = 0.00834386
+Iteration = 60   Residual = 5.70757e-05
+Iteration = 75   Residual = 3.89343e-07
+Iteration = 90   Residual = 2.6426e-09
+Iteration = 105   Residual = 1.77417e-11
+Iteration = 120   Residual = 1.15261e-13
+Iteration = 135   Residual = 6.18993e-16
+Iteration = 149   Residual = 5.09223e-18
+Mini-Application Name: hpccg
+Mini-Application Version: 1.0
+Parallelism: 
+  MPI not enabled: 
+  Number of OpenMP threads: 20
+Dimensions: 
+  nx: 256
+  ny: 256
+  nz: 1024
+Number of iterations: 149
+Final residual: 5.09223e-18
+#********** Performance Summary (times in sec) ***********: 
+Time Summary: 
+  Total   : 1208.72
+  DDOT    : 62.044
+  WAXPBY  : 188.828
+  SPARSEMV: 956.38
+FLOPS Summary: 
+  Total   : 6.3995e+11
+  DDOT    : 3.99969e+10
+  WAXPBY  : 5.99953e+10
+  SPARSEMV: 5.39958e+11
+MFLOPS Summary: 
+  Total   : 529.446
+  DDOT    : 644.654
+  WAXPBY  : 317.725
+  SPARSEMV: 564.585
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+11026.505737	2314179449530	139943386470	139943588068	0.120944	1692843277	3317743442	60011.613452	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+Initial Residual = 13573.6
+Iteration = 15   Residual = 178.727
+Iteration = 30   Residual = 1.21771
+Iteration = 45   Residual = 0.00834386
+Iteration = 60   Residual = 5.70757e-05
+Iteration = 75   Residual = 3.89343e-07
+Iteration = 90   Residual = 2.6426e-09
+Iteration = 105   Residual = 1.77417e-11
+Iteration = 120   Residual = 1.15261e-13
+Iteration = 135   Residual = 6.18993e-16
+Iteration = 149   Residual = 5.09223e-18
+Mini-Application Name: hpccg
+Mini-Application Version: 1.0
+Parallelism: 
+  MPI not enabled: 
+  Number of OpenMP threads: 20
+Dimensions: 
+  nx: 256
+  ny: 256
+  nz: 1024
+Number of iterations: 149
+Final residual: 5.09223e-18
+#********** Performance Summary (times in sec) ***********: 
+Time Summary: 
+  Total   : 1205.38
+  DDOT    : 61.028
+  WAXPBY  : 187.892
+  SPARSEMV: 955.028
+FLOPS Summary: 
+  Total   : 6.3995e+11
+  DDOT    : 3.99969e+10
+  WAXPBY  : 5.99953e+10
+  SPARSEMV: 5.39958e+11
+MFLOPS Summary: 
+  Total   : 530.912
+  DDOT    : 655.386
+  WAXPBY  : 319.307
+  SPARSEMV: 565.384
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+11030.926025	2320182785240	139941162674	139941415599	0.120630	1697553240	3381131945	59923.636479	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+Initial Residual = 13573.6
+Iteration = 15   Residual = 178.727
+Iteration = 30   Residual = 1.21771
+Iteration = 45   Residual = 0.00834386
+Iteration = 60   Residual = 5.70757e-05
+Iteration = 75   Residual = 3.89343e-07
+Iteration = 90   Residual = 2.6426e-09
+Iteration = 105   Residual = 1.77417e-11
+Iteration = 120   Residual = 1.15261e-13
+Iteration = 135   Residual = 6.18993e-16
+Iteration = 149   Residual = 5.09223e-18
+Mini-Application Name: hpccg
+Mini-Application Version: 1.0
+Parallelism: 
+  MPI not enabled: 
+  Number of OpenMP threads: 20
+Dimensions: 
+  nx: 256
+  ny: 256
+  nz: 1024
+Number of iterations: 149
+Final residual: 5.09223e-18
+#********** Performance Summary (times in sec) ***********: 
+Time Summary: 
+  Total   : 1211.3
+  DDOT    : 62.112
+  WAXPBY  : 190.552
+  SPARSEMV: 957.18
+FLOPS Summary: 
+  Total   : 6.3995e+11
+  DDOT    : 3.99969e+10
+  WAXPBY  : 5.99953e+10
+  SPARSEMV: 5.39958e+11
+MFLOPS Summary: 
+  Total   : 528.315
+  DDOT    : 643.948
+  WAXPBY  : 314.85
+  SPARSEMV: 564.113
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+11077.771973	2317895106110	139942770293	139943049018	0.120750	1714016604	3380850862	60160.477604	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+Initial Residual = 13573.6
+Iteration = 15   Residual = 178.727
+Iteration = 30   Residual = 1.21771
+Iteration = 45   Residual = 0.00834386
+Iteration = 60   Residual = 5.70757e-05
+Iteration = 75   Residual = 3.89343e-07
+Iteration = 90   Residual = 2.6426e-09
+Iteration = 105   Residual = 1.77417e-11
+Iteration = 120   Residual = 1.15261e-13
+Iteration = 135   Residual = 6.18993e-16
+Iteration = 149   Residual = 5.09223e-18
+Mini-Application Name: hpccg
+Mini-Application Version: 1.0
+Parallelism: 
+  MPI not enabled: 
+  Number of OpenMP threads: 20
+Dimensions: 
+  nx: 256
+  ny: 256
+  nz: 1024
+Number of iterations: 149
+Final residual: 5.09223e-18
+#********** Performance Summary (times in sec) ***********: 
+Time Summary: 
+  Total   : 1201.58
+  DDOT    : 61.588
+  WAXPBY  : 188.684
+  SPARSEMV: 949.864
+FLOPS Summary: 
+  Total   : 6.3995e+11
+  DDOT    : 3.99969e+10
+  WAXPBY  : 5.99953e+10
+  SPARSEMV: 5.39958e+11
+MFLOPS Summary: 
+  Total   : 532.591
+  DDOT    : 649.427
+  WAXPBY  : 317.967
+  SPARSEMV: 568.458
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+11030.747009	2318187291651	139936559528	139936878946	0.120729	1698797160	3376236867	59691.825211	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====

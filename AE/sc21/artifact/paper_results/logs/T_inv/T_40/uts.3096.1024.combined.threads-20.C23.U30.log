@@ -1,0 +1,470 @@
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 71.509 sec, performance = 257965562055138656 nodes/sec (12898278102756932 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	RANGE_L	RANGE_R	DISTINCT_SLABS	OPT_CORE_SLABS	OPT_UNCORE_SLABS	0.00000_0.00400_PERC	0.00000_0.00400_CF	0.00000_0.00400_UF	0.00000_0.00400_CT	0.00000_0.00400_UT	
+9126.907410	8992306758725	104710866	107443728	0.000024	12359366	121731516	71541.215459	0.000000	0.004000	1	1	1	1.000000	23	12	21	50	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+================================= TIPI =======================================
+TIPI SLAB	 0.000000 - 0.004000
+============================ CORE Statistics ============================
+L	 22
+R	 23
+OPTIMUM CORE FREQUENCY	 23
+JPI[0]	JPI[1]	JPI[2]	JPI[3]	JPI[4]	JPI[5]	JPI[6]	JPI[7]	JPI[8]	JPI[9]	JPI[10]	JPI[11]	
+0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000013	0.0000000000	0.0000000012	
+============================ UNCORE Statistics ============================
+LU	 12
+RU	 12
+LG	 12
+RG	 20
+OPTIMUM UNCORE FREQUENCY	 12
+JPIU[0]	JPIU[1]	JPIU[2]	JPIU[3]	JPIU[4]	JPIU[5]	JPIU[6]	JPIU[7]	JPIU[8]	JPIU[9]	JPIU[10]	JPIU[11]	JPIU[12]	JPIU[13]	JPIU[14]	JPIU[15]	JPIU[16]	JPIU[17]	JPIU[18]	
+0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000011	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000012	
+==============================================================================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 71.673 sec, performance = 257374133412389472 nodes/sec (12868706670619474 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	RANGE_L	RANGE_R	DISTINCT_SLABS	OPT_CORE_SLABS	OPT_UNCORE_SLABS	0.00000_0.00400_PERC	0.00000_0.00400_CF	0.00000_0.00400_UF	0.00000_0.00400_CT	0.00000_0.00400_UT	
+9143.729736	8992554022728	104693754	107582109	0.000024	12303632	119198483	71702.415973	0.000000	0.004000	1	1	1	1.000000	23	12	21	50	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+================================= TIPI =======================================
+TIPI SLAB	 0.000000 - 0.004000
+============================ CORE Statistics ============================
+L	 22
+R	 23
+OPTIMUM CORE FREQUENCY	 23
+JPI[0]	JPI[1]	JPI[2]	JPI[3]	JPI[4]	JPI[5]	JPI[6]	JPI[7]	JPI[8]	JPI[9]	JPI[10]	JPI[11]	
+0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000013	0.0000000000	0.0000000012	
+============================ UNCORE Statistics ============================
+LU	 12
+RU	 12
+LG	 12
+RG	 20
+OPTIMUM UNCORE FREQUENCY	 12
+JPIU[0]	JPIU[1]	JPIU[2]	JPIU[3]	JPIU[4]	JPIU[5]	JPIU[6]	JPIU[7]	JPIU[8]	JPIU[9]	JPIU[10]	JPIU[11]	JPIU[12]	JPIU[13]	JPIU[14]	JPIU[15]	JPIU[16]	JPIU[17]	JPIU[18]	
+0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000011	0.0000000000	0.0000000011	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000012	
+==============================================================================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 71.860 sec, performance = 256703182167034944 nodes/sec (12835159108351748 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	RANGE_L	RANGE_R	DISTINCT_SLABS	OPT_CORE_SLABS	OPT_UNCORE_SLABS	0.00000_0.00400_PERC	0.00000_0.00400_CF	0.00000_0.00400_UF	0.00000_0.00400_CT	0.00000_0.00400_UT	
+9163.206726	8993857781070	108324482	111076571	0.000024	12962807	126812938	71917.474468	0.000000	0.004000	1	1	1	1.000000	23	12	21	50	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+================================= TIPI =======================================
+TIPI SLAB	 0.000000 - 0.004000
+============================ CORE Statistics ============================
+L	 22
+R	 23
+OPTIMUM CORE FREQUENCY	 23
+JPI[0]	JPI[1]	JPI[2]	JPI[3]	JPI[4]	JPI[5]	JPI[6]	JPI[7]	JPI[8]	JPI[9]	JPI[10]	JPI[11]	
+0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000013	0.0000000000	0.0000000012	
+============================ UNCORE Statistics ============================
+LU	 12
+RU	 12
+LG	 12
+RG	 20
+OPTIMUM UNCORE FREQUENCY	 12
+JPIU[0]	JPIU[1]	JPIU[2]	JPIU[3]	JPIU[4]	JPIU[5]	JPIU[6]	JPIU[7]	JPIU[8]	JPIU[9]	JPIU[10]	JPIU[11]	JPIU[12]	JPIU[13]	JPIU[14]	JPIU[15]	JPIU[16]	JPIU[17]	JPIU[18]	
+0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000011	0.0000000000	0.0000000011	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000012	
+==============================================================================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 71.659 sec, performance = 257422864455938624 nodes/sec (12871143222796932 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	RANGE_L	RANGE_R	DISTINCT_SLABS	OPT_CORE_SLABS	OPT_UNCORE_SLABS	0.00000_0.00400_PERC	0.00000_0.00400_CF	0.00000_0.00400_UF	0.00000_0.00400_CT	0.00000_0.00400_UT	
+9123.357666	8993755819545	104425412	106821629	0.000023	12875190	121728120	71693.617716	0.000000	0.004000	1	1	1	1.000000	23	12	21	50	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+================================= TIPI =======================================
+TIPI SLAB	 0.000000 - 0.004000
+============================ CORE Statistics ============================
+L	 22
+R	 23
+OPTIMUM CORE FREQUENCY	 23
+JPI[0]	JPI[1]	JPI[2]	JPI[3]	JPI[4]	JPI[5]	JPI[6]	JPI[7]	JPI[8]	JPI[9]	JPI[10]	JPI[11]	
+0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000013	0.0000000000	0.0000000012	
+============================ UNCORE Statistics ============================
+LU	 12
+RU	 12
+LG	 12
+RG	 20
+OPTIMUM UNCORE FREQUENCY	 12
+JPIU[0]	JPIU[1]	JPIU[2]	JPIU[3]	JPIU[4]	JPIU[5]	JPIU[6]	JPIU[7]	JPIU[8]	JPIU[9]	JPIU[10]	JPIU[11]	JPIU[12]	JPIU[13]	JPIU[14]	JPIU[15]	JPIU[16]	JPIU[17]	JPIU[18]	
+0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000011	0.0000000000	0.0000000011	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000012	
+==============================================================================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 71.389 sec, performance = 258398379839551328 nodes/sec (12919918991977566 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	RANGE_L	RANGE_R	DISTINCT_SLABS	OPT_CORE_SLABS	OPT_UNCORE_SLABS	0.00000_0.00400_PERC	0.00000_0.00400_CF	0.00000_0.00400_UF	0.00000_0.00400_CT	0.00000_0.00400_UT	
+9079.750732	8992578602016	102572590	105325198	0.000023	12409872	120545325	71450.270062	0.000000	0.004000	1	1	1	1.000000	23	12	21	50	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+================================= TIPI =======================================
+TIPI SLAB	 0.000000 - 0.004000
+============================ CORE Statistics ============================
+L	 22
+R	 23
+OPTIMUM CORE FREQUENCY	 23
+JPI[0]	JPI[1]	JPI[2]	JPI[3]	JPI[4]	JPI[5]	JPI[6]	JPI[7]	JPI[8]	JPI[9]	JPI[10]	JPI[11]	
+0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000013	0.0000000000	0.0000000012	
+============================ UNCORE Statistics ============================
+LU	 12
+RU	 12
+LG	 12
+RG	 20
+OPTIMUM UNCORE FREQUENCY	 12
+JPIU[0]	JPIU[1]	JPIU[2]	JPIU[3]	JPIU[4]	JPIU[5]	JPIU[6]	JPIU[7]	JPIU[8]	JPIU[9]	JPIU[10]	JPIU[11]	JPIU[12]	JPIU[13]	JPIU[14]	JPIU[15]	JPIU[16]	JPIU[17]	JPIU[18]	
+0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000011	0.0000000000	0.0000000011	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000012	
+==============================================================================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 71.709 sec, performance = 257243750397388896 nodes/sec (12862187519869444 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	RANGE_L	RANGE_R	DISTINCT_SLABS	OPT_CORE_SLABS	OPT_UNCORE_SLABS	0.00000_0.00400_PERC	0.00000_0.00400_CF	0.00000_0.00400_UF	0.00000_0.00400_CT	0.00000_0.00400_UT	
+9103.785339	8994184208648	110434470	113434294	0.000025	13562402	132090724	71755.694315	0.000000	0.004000	1	1	1	1.000000	23	12	21	50	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+================================= TIPI =======================================
+TIPI SLAB	 0.000000 - 0.004000
+============================ CORE Statistics ============================
+L	 22
+R	 23
+OPTIMUM CORE FREQUENCY	 23
+JPI[0]	JPI[1]	JPI[2]	JPI[3]	JPI[4]	JPI[5]	JPI[6]	JPI[7]	JPI[8]	JPI[9]	JPI[10]	JPI[11]	
+0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000013	0.0000000000	0.0000000012	
+============================ UNCORE Statistics ============================
+LU	 12
+RU	 12
+LG	 12
+RG	 20
+OPTIMUM UNCORE FREQUENCY	 12
+JPIU[0]	JPIU[1]	JPIU[2]	JPIU[3]	JPIU[4]	JPIU[5]	JPIU[6]	JPIU[7]	JPIU[8]	JPIU[9]	JPIU[10]	JPIU[11]	JPIU[12]	JPIU[13]	JPIU[14]	JPIU[15]	JPIU[16]	JPIU[17]	JPIU[18]	
+0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000011	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000012	
+==============================================================================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 71.968 sec, performance = 256318890359540704 nodes/sec (12815944517977036 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	RANGE_L	RANGE_R	DISTINCT_SLABS	OPT_CORE_SLABS	OPT_UNCORE_SLABS	0.00000_0.00400_PERC	0.00000_0.00400_CF	0.00000_0.00400_UF	0.00000_0.00400_CT	0.00000_0.00400_UT	
+9165.057312	8993663269864	109207423	111658380	0.000025	13994265	129845970	72002.548370	0.000000	0.004000	1	1	1	1.000000	23	12	21	50	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+================================= TIPI =======================================
+TIPI SLAB	 0.000000 - 0.004000
+============================ CORE Statistics ============================
+L	 22
+R	 23
+OPTIMUM CORE FREQUENCY	 23
+JPI[0]	JPI[1]	JPI[2]	JPI[3]	JPI[4]	JPI[5]	JPI[6]	JPI[7]	JPI[8]	JPI[9]	JPI[10]	JPI[11]	
+0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000013	0.0000000000	0.0000000012	
+============================ UNCORE Statistics ============================
+LU	 12
+RU	 12
+LG	 12
+RG	 20
+OPTIMUM UNCORE FREQUENCY	 12
+JPIU[0]	JPIU[1]	JPIU[2]	JPIU[3]	JPIU[4]	JPIU[5]	JPIU[6]	JPIU[7]	JPIU[8]	JPIU[9]	JPIU[10]	JPIU[11]	JPIU[12]	JPIU[13]	JPIU[14]	JPIU[15]	JPIU[16]	JPIU[17]	JPIU[18]	
+0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000011	0.0000000000	0.0000000011	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000013	
+==============================================================================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 70.942 sec, performance = 260027115966622016 nodes/sec (13001355798331100 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	RANGE_L	RANGE_R	DISTINCT_SLABS	OPT_CORE_SLABS	OPT_UNCORE_SLABS	0.00000_0.00400_PERC	0.00000_0.00400_CF	0.00000_0.00400_UF	0.00000_0.00400_CT	0.00000_0.00400_UT	
+9244.878357	8993502482927	102118400	104359003	0.000023	12185674	118442820	70985.915932	0.000000	0.004000	1	1	1	1.000000	23	15	21	41	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+================================= TIPI =======================================
+TIPI SLAB	 0.000000 - 0.004000
+============================ CORE Statistics ============================
+L	 22
+R	 23
+OPTIMUM CORE FREQUENCY	 23
+JPI[0]	JPI[1]	JPI[2]	JPI[3]	JPI[4]	JPI[5]	JPI[6]	JPI[7]	JPI[8]	JPI[9]	JPI[10]	JPI[11]	
+0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000013	0.0000000000	0.0000000012	
+============================ UNCORE Statistics ============================
+LU	 15
+RU	 16
+LG	 12
+RG	 20
+OPTIMUM UNCORE FREQUENCY	 15
+JPIU[0]	JPIU[1]	JPIU[2]	JPIU[3]	JPIU[4]	JPIU[5]	JPIU[6]	JPIU[7]	JPIU[8]	JPIU[9]	JPIU[10]	JPIU[11]	JPIU[12]	JPIU[13]	JPIU[14]	JPIU[15]	JPIU[16]	JPIU[17]	JPIU[18]	
+0.0000000000	0.0000000000	0.0000000010	0.0000000010	0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000011	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000012	
+==============================================================================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 71.696 sec, performance = 257290785897917408 nodes/sec (12864539294895870 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	RANGE_L	RANGE_R	DISTINCT_SLABS	OPT_CORE_SLABS	OPT_UNCORE_SLABS	0.00000_0.00400_PERC	0.00000_0.00400_CF	0.00000_0.00400_UF	0.00000_0.00400_CT	0.00000_0.00400_UT	
+9123.486328	8992268898640	108756411	111741169	0.000025	12999701	129612368	71732.126429	0.000000	0.004000	1	1	1	1.000000	23	12	21	50	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+================================= TIPI =======================================
+TIPI SLAB	 0.000000 - 0.004000
+============================ CORE Statistics ============================
+L	 22
+R	 23
+OPTIMUM CORE FREQUENCY	 23
+JPI[0]	JPI[1]	JPI[2]	JPI[3]	JPI[4]	JPI[5]	JPI[6]	JPI[7]	JPI[8]	JPI[9]	JPI[10]	JPI[11]	
+0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000013	0.0000000000	0.0000000012	
+============================ UNCORE Statistics ============================
+LU	 12
+RU	 12
+LG	 12
+RG	 20
+OPTIMUM UNCORE FREQUENCY	 12
+JPIU[0]	JPIU[1]	JPIU[2]	JPIU[3]	JPIU[4]	JPIU[5]	JPIU[6]	JPIU[7]	JPIU[8]	JPIU[9]	JPIU[10]	JPIU[11]	JPIU[12]	JPIU[13]	JPIU[14]	JPIU[15]	JPIU[16]	JPIU[17]	JPIU[18]	
+0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000011	0.0000000000	0.0000000011	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000012	
+==============================================================================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 19
+  GEO parameters: gen_mx = 15, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 18446744073645230921, tree depth = 15, num leaves = 18446744072799080058 (100.00%)
+Wallclock time = 71.547 sec, performance = 257827170468641632 nodes/sec (12891358523432082 nodes/sec per PE)
+
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	RANGE_L	RANGE_R	DISTINCT_SLABS	OPT_CORE_SLABS	OPT_UNCORE_SLABS	0.00000_0.00400_PERC	0.00000_0.00400_CF	0.00000_0.00400_UF	0.00000_0.00400_CT	0.00000_0.00400_UT	
+9131.212280	8992594506034	110634807	113653784	0.000025	13813703	132775611	71583.360306	0.000000	0.004000	1	1	1	1.000000	23	13	21	51	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+================================= TIPI =======================================
+TIPI SLAB	 0.000000 - 0.004000
+============================ CORE Statistics ============================
+L	 22
+R	 23
+OPTIMUM CORE FREQUENCY	 23
+JPI[0]	JPI[1]	JPI[2]	JPI[3]	JPI[4]	JPI[5]	JPI[6]	JPI[7]	JPI[8]	JPI[9]	JPI[10]	JPI[11]	
+0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000013	0.0000000000	0.0000000012	
+============================ UNCORE Statistics ============================
+LU	 13
+RU	 14
+LG	 12
+RG	 20
+OPTIMUM UNCORE FREQUENCY	 13
+JPIU[0]	JPIU[1]	JPIU[2]	JPIU[3]	JPIU[4]	JPIU[5]	JPIU[6]	JPIU[7]	JPIU[8]	JPIU[9]	JPIU[10]	JPIU[11]	JPIU[12]	JPIU[13]	JPIU[14]	JPIU[15]	JPIU[16]	JPIU[17]	JPIU[18]	
+0.0000000010	0.0000000010	0.0000000010	0.0000000000	0.0000000010	0.0000000000	0.0000000011	0.0000000000	0.0000000011	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000000	0.0000000012	
+==============================================================================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====

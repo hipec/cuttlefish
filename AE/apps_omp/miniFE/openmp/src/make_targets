@@ -1,0 +1,48 @@
+include $(CUTTLEFISH_ROOT)/include/cuttlefish.mak
+
+
+OBJS = \
+	BoxPartition.o \
+	YAML_Doc.o \
+	YAML_Element.o
+
+UTIL_OBJS = \
+	param_utils.o \
+	utils.o \
+	mytimer.o
+
+MAIN_OBJ = \
+	main.o
+
+MINIFE_INFO = 1
+MINIFE_KERNELS = 0
+
+vpath %.cpp ../utils
+
+all:common_files generate_info miniFE
+
+miniFE:common_files $(MAIN_OBJ) $(OBJS) $(UTIL_OBJS) $(OPTIONAL_OBJS) *.hpp generate_info
+	$(INSTRUMENT) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(CUTTLEFISH_CXXFLAGS) $(MAIN_OBJ) $(OBJS) $(UTIL_OBJS) $(OPTIONAL_OBJS) -o miniFE $(LDFLAGS) $(OPTIONAL_LIBS) $(LIBS) $(CUTTLEFISH_LDFLAGS) -lstdc++ -lm $(CUTTLEFISH_LDLIBS)
+
+
+common_files:
+	./get_common_files
+
+generate_info:
+	./generate_info_header "$(CXX)" "$(CXXFLAGS)" "miniFE" "MINIFE"
+
+verify:all
+	./run_tests
+
+%.o:%.cpp *.hpp
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS)  $(CUTTLEFISH_CXXFLAGS) -D__STRICT_ANSI__  -DMINIFE_INFO=$(MINIFE_INFO) -DMINIFE_KERNELS=$(MINIFE_KERNELS) -c $<
+
+%.o:%.c *.h
+	$(CC) $(CFLAGS) $(CPPFLAGS) $(CUTTLEFISH_CXXFLAGS) -c $<
+
+clean:
+	rm -f *.o *.a *.x *.linkinfo miniFE_info.hpp
+
+realclean: clean
+	rm -f gmon.out gprof.* *~ *.yaml *.TVD.* *.mtx* *.vec* minife_debug*
+

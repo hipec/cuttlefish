@@ -1,0 +1,29 @@
+include $(CUTTLEFISH_ROOT)/include/cuttlefish.mak
+
+TARGETS=heat heatIR heatRR sor sorIR sorRR
+
+all: clean $(TARGETS) clean-obj
+
+sorRR:
+	clang++ -DREGULAR -O3 -std=c++11 -fopenmp=libomp -I./inc  $(CUTTLEFISH_CXXFLAGS) $(CUTTLEFISH_LDFLAGS) $(LIKWID_INCLUDE) $(LIKWID_LIBDIR) -o sorRR sor.cpp $(CUTTLEFISH_LDLIBS) $(LIKWID_LIB)
+
+heatRR:
+	clang++ -DREGULAR  -O3 -std=c++11 -fopenmp=libomp -I./inc  $(CUTTLEFISH_CXXFLAGS) $(CUTTLEFISH_LDFLAGS) $(LIKWID_INCLUDE) $(LIKWID_LIBDIR) -o heatRR heat.cpp $(CUTTLEFISH_LDLIBS) $(LIKWID_LIB)
+
+sorIR:
+	clang++ -DIRREGULAR -O3 -std=c++11 -fopenmp=libomp -I./inc  $(CUTTLEFISH_CXXFLAGS) $(CUTTLEFISH_LDFLAGS) $(LIKWID_INCLUDE) $(LIKWID_LIBDIR) -o sorIR sor.cpp $(CUTTLEFISH_LDLIBS) $(LIKWID_LIB)
+
+heatIR:
+	clang++ -DIRREGULAR  -O3 -std=c++11 -fopenmp=libomp -I./inc  $(CUTTLEFISH_CXXFLAGS) $(CUTTLEFISH_LDFLAGS) $(LIKWID_INCLUDE) $(LIKWID_LIBDIR) -o heatIR heat.cpp $(CUTTLEFISH_LDLIBS) $(LIKWID_LIB)
+
+sor:
+	clang++ -O3 -std=c++11 -fopenmp=libomp -I./inc  $(CUTTLEFISH_CXXFLAGS) $(CUTTLEFISH_LDFLAGS) $(LIKWID_INCLUDE) $(LIKWID_LIBDIR) -o sor sor.cpp $(CUTTLEFISH_LDLIBS) $(LIKWID_LIB)
+
+heat:
+	clang++ -O3 -std=c++11 -fopenmp=libomp -I./inc  $(CUTTLEFISH_CXXFLAGS) $(CUTTLEFISH_LDFLAGS) $(LIKWID_INCLUDE) $(LIKWID_LIBDIR) -o heat heat.cpp $(CUTTLEFISH_LDLIBS) $(LIKWID_LIB)
+
+clean-obj:
+	rm -rf *.o
+
+clean:
+	rm -rf *.o $(TARGETS)

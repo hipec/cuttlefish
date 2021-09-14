@@ -1,0 +1,370 @@
+
+-----
+mkdir timedrun fake
+
+MiniFE Mini-App, OpenMP Peer Implementation
+Creating OpenMP Thread Pool...
+Counted: 20 threads.
+Running MiniFE Mini-App...
+      creating/filling mesh...0.809228s, total time: 0.809228
+generating matrix structure...31.0653s, total time: 31.8746
+         assembling FE data...10.9148s, total time: 42.7893
+      imposing Dirichlet BC...11.8978s, total time: 54.6871
+      imposing Dirichlet BC...4.27478s, total time: 58.9619
+making matrix indices local...0s, total time: 58.9619
+Starting CG solver ... 
+Initial Residual = 513
+Iteration = 20   Residual = 0.0748219
+Iteration = 40   Residual = 0.0356161
+Iteration = 60   Residual = 0.0852717
+Iteration = 80   Residual = 0.0169266
+Iteration = 100   Residual = 0.0667704
+Iteration = 120   Residual = 0.0106177
+Iteration = 140   Residual = 0.0089821
+Iteration = 160   Residual = 0.00739304
+Iteration = 180   Residual = 0.00632555
+Iteration = 200   Residual = 0.00539689
+Final Resid Norm: 0.00539689
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14357.840820	3181447551066	182576016359	182576210840	0.114775	2147631179	4093923817	78585.137063	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+MiniFE Mini-App, OpenMP Peer Implementation
+Creating OpenMP Thread Pool...
+Counted: 20 threads.
+Running MiniFE Mini-App...
+      creating/filling mesh...0.818098s, total time: 0.818098
+generating matrix structure...30.7297s, total time: 31.5477
+         assembling FE data...10.8528s, total time: 42.4005
+      imposing Dirichlet BC...11.8949s, total time: 54.2954
+      imposing Dirichlet BC...4.2877s, total time: 58.5831
+making matrix indices local...0s, total time: 58.5831
+Starting CG solver ... 
+Initial Residual = 513
+Iteration = 20   Residual = 0.0748219
+Iteration = 40   Residual = 0.0356161
+Iteration = 60   Residual = 0.0852717
+Iteration = 80   Residual = 0.0169266
+Iteration = 100   Residual = 0.0667704
+Iteration = 120   Residual = 0.0106177
+Iteration = 140   Residual = 0.0089821
+Iteration = 160   Residual = 0.00739304
+Iteration = 180   Residual = 0.00632555
+Iteration = 200   Residual = 0.00539689
+Final Resid Norm: 0.00539689
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14245.257080	3183017689018	182573492731	182573727007	0.114717	2161216538	4148765118	77755.160934	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+MiniFE Mini-App, OpenMP Peer Implementation
+Creating OpenMP Thread Pool...
+Counted: 20 threads.
+Running MiniFE Mini-App...
+      creating/filling mesh...0.84747s, total time: 0.84747
+generating matrix structure...30.9874s, total time: 31.8348
+         assembling FE data...10.8444s, total time: 42.6792
+      imposing Dirichlet BC...11.8957s, total time: 54.575
+      imposing Dirichlet BC...4.2586s, total time: 58.8336
+making matrix indices local...0s, total time: 58.8336
+Starting CG solver ... 
+Initial Residual = 513
+Iteration = 20   Residual = 0.0748219
+Iteration = 40   Residual = 0.0356161
+Iteration = 60   Residual = 0.0852717
+Iteration = 80   Residual = 0.0169266
+Iteration = 100   Residual = 0.0667704
+Iteration = 120   Residual = 0.0106177
+Iteration = 140   Residual = 0.0089821
+Iteration = 160   Residual = 0.00739304
+Iteration = 180   Residual = 0.00632555
+Iteration = 200   Residual = 0.00539689
+Final Resid Norm: 0.00539689
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14343.334534	3182349982356	182573704050	182573858704	0.114741	2165388564	4147885741	78480.536981	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+MiniFE Mini-App, OpenMP Peer Implementation
+Creating OpenMP Thread Pool...
+Counted: 20 threads.
+Running MiniFE Mini-App...
+      creating/filling mesh...0.857383s, total time: 0.857383
+generating matrix structure...30.8186s, total time: 31.6759
+         assembling FE data...11.7274s, total time: 43.4033
+      imposing Dirichlet BC...11.9094s, total time: 55.3127
+      imposing Dirichlet BC...4.25759s, total time: 59.5703
+making matrix indices local...0s, total time: 59.5703
+Starting CG solver ... 
+Initial Residual = 513
+Iteration = 20   Residual = 0.0748219
+Iteration = 40   Residual = 0.0356161
+Iteration = 60   Residual = 0.0852717
+Iteration = 80   Residual = 0.0169266
+Iteration = 100   Residual = 0.0667704
+Iteration = 120   Residual = 0.0106177
+Iteration = 140   Residual = 0.0089821
+Iteration = 160   Residual = 0.00739304
+Iteration = 180   Residual = 0.00632555
+Iteration = 200   Residual = 0.00539689
+Final Resid Norm: 0.00539689
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14345.647644	3180389677849	182588289502	182588478782	0.114821	2164929996	4151744478	78809.225333	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+MiniFE Mini-App, OpenMP Peer Implementation
+Creating OpenMP Thread Pool...
+Counted: 20 threads.
+Running MiniFE Mini-App...
+      creating/filling mesh...0.817314s, total time: 0.817314
+generating matrix structure...30.8797s, total time: 31.697
+         assembling FE data...10.8302s, total time: 42.5272
+      imposing Dirichlet BC...11.8978s, total time: 54.425
+      imposing Dirichlet BC...4.25481s, total time: 58.6798
+making matrix indices local...0s, total time: 58.6798
+Starting CG solver ... 
+Initial Residual = 513
+Iteration = 20   Residual = 0.0748219
+Iteration = 40   Residual = 0.0356161
+Iteration = 60   Residual = 0.0852717
+Iteration = 80   Residual = 0.0169266
+Iteration = 100   Residual = 0.0667704
+Iteration = 120   Residual = 0.0106177
+Iteration = 140   Residual = 0.0089821
+Iteration = 160   Residual = 0.00739304
+Iteration = 180   Residual = 0.00632555
+Iteration = 200   Residual = 0.00539689
+Final Resid Norm: 0.00539689
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14375.661194	3175287302011	182580744267	182580945564	0.115001	2151705737	4089978111	78705.601694	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+MiniFE Mini-App, OpenMP Peer Implementation
+Creating OpenMP Thread Pool...
+Counted: 20 threads.
+Running MiniFE Mini-App...
+      creating/filling mesh...0.810466s, total time: 0.810466
+generating matrix structure...30.9449s, total time: 31.7553
+         assembling FE data...11.5293s, total time: 43.2846
+      imposing Dirichlet BC...11.8977s, total time: 55.1824
+      imposing Dirichlet BC...4.25824s, total time: 59.4406
+making matrix indices local...0s, total time: 59.4406
+Starting CG solver ... 
+Initial Residual = 513
+Iteration = 20   Residual = 0.0748219
+Iteration = 40   Residual = 0.0356161
+Iteration = 60   Residual = 0.0852717
+Iteration = 80   Residual = 0.0169266
+Iteration = 100   Residual = 0.0667704
+Iteration = 120   Residual = 0.0106177
+Iteration = 140   Residual = 0.0089821
+Iteration = 160   Residual = 0.00739304
+Iteration = 180   Residual = 0.00632555
+Iteration = 200   Residual = 0.00539689
+Final Resid Norm: 0.00539689
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14357.027832	3176600010052	182575875343	182576036474	0.114951	2150191148	4048436888	78685.726539	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+MiniFE Mini-App, OpenMP Peer Implementation
+Creating OpenMP Thread Pool...
+Counted: 20 threads.
+Running MiniFE Mini-App...
+      creating/filling mesh...0.832719s, total time: 0.832721
+generating matrix structure...30.9155s, total time: 31.7482
+         assembling FE data...10.8581s, total time: 42.6062
+      imposing Dirichlet BC...11.9041s, total time: 54.5104
+      imposing Dirichlet BC...4.26095s, total time: 58.7713
+making matrix indices local...0s, total time: 58.7713
+Starting CG solver ... 
+Initial Residual = 513
+Iteration = 20   Residual = 0.0748219
+Iteration = 40   Residual = 0.0356161
+Iteration = 60   Residual = 0.0852717
+Iteration = 80   Residual = 0.0169266
+Iteration = 100   Residual = 0.0667704
+Iteration = 120   Residual = 0.0106177
+Iteration = 140   Residual = 0.0089821
+Iteration = 160   Residual = 0.00739304
+Iteration = 180   Residual = 0.00632555
+Iteration = 200   Residual = 0.00539689
+Final Resid Norm: 0.00539689
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14374.181091	3180268110983	182569253769	182569400301	0.114814	2177263507	4193412693	78846.662684	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+MiniFE Mini-App, OpenMP Peer Implementation
+Creating OpenMP Thread Pool...
+Counted: 20 threads.
+Running MiniFE Mini-App...
+      creating/filling mesh...0.808805s, total time: 0.808806
+generating matrix structure...30.8988s, total time: 31.7076
+         assembling FE data...10.8142s, total time: 42.5219
+      imposing Dirichlet BC...11.908s, total time: 54.4299
+      imposing Dirichlet BC...4.26938s, total time: 58.6992
+making matrix indices local...0s, total time: 58.6992
+Starting CG solver ... 
+Initial Residual = 513
+Iteration = 20   Residual = 0.0748219
+Iteration = 40   Residual = 0.0356161
+Iteration = 60   Residual = 0.0852717
+Iteration = 80   Residual = 0.0169266
+Iteration = 100   Residual = 0.0667704
+Iteration = 120   Residual = 0.0106177
+Iteration = 140   Residual = 0.0089821
+Iteration = 160   Residual = 0.00739304
+Iteration = 180   Residual = 0.00632555
+Iteration = 200   Residual = 0.00539689
+Final Resid Norm: 0.00539689
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14365.525818	3173323450968	182577499086	182577629026	0.115070	2145584933	4028526199	78747.217260	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+MiniFE Mini-App, OpenMP Peer Implementation
+Creating OpenMP Thread Pool...
+Counted: 20 threads.
+Running MiniFE Mini-App...
+      creating/filling mesh...0.951271s, total time: 0.951271
+generating matrix structure...30.8425s, total time: 31.7938
+         assembling FE data...10.83s, total time: 42.6238
+      imposing Dirichlet BC...11.8999s, total time: 54.5236
+      imposing Dirichlet BC...4.33495s, total time: 58.8586
+making matrix indices local...0s, total time: 58.8586
+Starting CG solver ... 
+Initial Residual = 513
+Iteration = 20   Residual = 0.0748219
+Iteration = 40   Residual = 0.0356161
+Iteration = 60   Residual = 0.0852717
+Iteration = 80   Residual = 0.0169266
+Iteration = 100   Residual = 0.0667704
+Iteration = 120   Residual = 0.0106177
+Iteration = 140   Residual = 0.0089821
+Iteration = 160   Residual = 0.00739304
+Iteration = 180   Residual = 0.00632555
+Iteration = 200   Residual = 0.00539689
+Final Resid Norm: 0.00539689
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14313.373596	3176458767577	182571444217	182571648517	0.114953	2156642185	4097513560	78599.479609	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
+
+-----
+mkdir timedrun fake
+
+MiniFE Mini-App, OpenMP Peer Implementation
+Creating OpenMP Thread Pool...
+Counted: 20 threads.
+Running MiniFE Mini-App...
+      creating/filling mesh...0.806626s, total time: 0.806627
+generating matrix structure...31.047s, total time: 31.8536
+         assembling FE data...10.8169s, total time: 42.6706
+      imposing Dirichlet BC...11.8982s, total time: 54.5688
+      imposing Dirichlet BC...4.57522s, total time: 59.144
+making matrix indices local...0s, total time: 59.144
+Starting CG solver ... 
+Initial Residual = 513
+Iteration = 20   Residual = 0.0748219
+Iteration = 40   Residual = 0.0356161
+Iteration = 60   Residual = 0.0852717
+Iteration = 80   Residual = 0.0169266
+Iteration = 100   Residual = 0.0667704
+Iteration = 120   Residual = 0.0106177
+Iteration = 140   Residual = 0.0089821
+Iteration = 160   Residual = 0.00739304
+Iteration = 180   Residual = 0.00632555
+Iteration = 200   Residual = 0.00539689
+Final Resid Norm: 0.00539689
+
+============================ Tabulate Statistics ============================
+PWR_PKG_ENERGY	INST_RETIRED	TOR_OCCUPANCY	RR_OCCUPANCY	TIPI	L3_MISS	L2_MISS	TIME	
+14342.499573	3175600341232	182574037399	182574189338	0.114986	2159408400	4096169777	78743.156298	
+=============================================================================
+
+============================ TIPI SLAB Statistics ============================
+
+==============================================================================
+===== Test PASSED in 0.0 msec =====
